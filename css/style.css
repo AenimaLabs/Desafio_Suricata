@@ -1,12 +1,22 @@
 /* font-family: 'Open Sans', sans-serif */
 
-.surinav {
+.navbar {
 
     background-color: #E83E8C;
-    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    
     color: white;
-    font-size: 16px;
+    
  
 
+}
+.nav-link{
+    color: white !important;
+    opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
